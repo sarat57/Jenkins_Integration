@@ -16,7 +16,6 @@ public class WindowHandle {
 
 	public static void main(String[] args) throws InterruptedException, AWTException {
 System.setProperty("webdriver.chrome.driver", "C:\\Users\\sarat\\Downloads\\chromedriver_win32\\chromedriver.exe");	
-		
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.naukri.com/");
 Thread.sleep(3000);
